@@ -83,4 +83,4 @@ var str = urlStuff.Encode();
 var link = config.RG_LINK() + str;
 console.log('link: ' + link);
 
-
+urlStuff.debugPrint()
