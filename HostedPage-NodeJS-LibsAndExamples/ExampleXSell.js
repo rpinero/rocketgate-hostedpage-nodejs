@@ -66,7 +66,7 @@ urlStuff.Set('state', 'IL');
 urlStuff.Set('zip', '60517');
 urlStuff.Set('country', 'US');
 
-urlStuff.Set("xsell1", "1:4b3cadb121bd77c6642910d7ff929d79:411:0:4b3cadb121bd77c6642910d7ff929d79:1:USD:14.99:30:2::es,+add+US$+1.00+for+a+2+day+membership+to+vixenpremium.com+recurring+at+US$+34.95+every+1+month:X_30_2");
+urlStuff.Set("xsell1", "1:4b3cadb121bd77c6642910d7ff929d79:411:0:4b3cadb121bd77c6642910d7ff929d79:1:USD:14.99:30:2::add US$ 1.00 for a 2 day membership to xy.com recurring at US$ 34.95 every 1 month:X_30_2");
 
 //
 // this is required for a credit card transaction
@@ -81,3 +81,5 @@ var str = urlStuff.Encode();
 
 var link = config.RG_LINK() + str;
 console.log('link: ' + link);
+
+urlStuff.debugPrint()
