@@ -75,7 +75,7 @@ LinkBuilder.prototype.Set = function (key, value) {
     // remove the '$' if it exists
     //
     if (key.toLowerCase() === 'amount') {
-        var pattern = '//$';
+        var pattern = '\\$';
 
         while (valueTrim.match(pattern)) {
             valueTrim = valueTrim.substr(1);
