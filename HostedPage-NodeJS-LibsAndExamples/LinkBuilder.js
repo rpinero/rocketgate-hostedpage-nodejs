@@ -22,7 +22,7 @@
 //  whether or not advised of the possibility of damage, regardless of the theory of liability.
 //  
 //  File name: LinkBuilder.js
-//  Purpose: The purpose of this php file is to be an Object that can
+//  Purpose: The purpose of this nodejs file is to be an Object that can
 //               build a link for passing a charge request to the
 //               RocketGate system.  This is meant to be used in production
 //               or as an example of how to accomplish encoded link
